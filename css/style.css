@@ -565,6 +565,9 @@ footer {
 		-webkit-filter: opacity(.8);
 		height: 4rem;
 	}
+	h1 {
+		color: #000000;
+	}
 	}
 
 @media (max-width: 286px) {
@@ -582,7 +585,6 @@ footer {
 
 	h1 {
 		font-size: 2rem;
-		color: #000000;
 	}
 	h2 {
 		font-size: 1.6rem;
