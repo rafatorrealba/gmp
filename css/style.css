@@ -499,6 +499,7 @@ footer {
 
 h1 {
 	font-size: 2.4rem;
+	color: #000000;
 }
 h2 {
 	font-size: 2rem;
@@ -543,7 +544,7 @@ footer {
 	
 	h1 {
 		font-size: 2.2rem;
-		color: var(--negro);
+		color: var(--primario);
 	}
 	h2 {
 		font-size: 1.8rem;
@@ -565,9 +566,6 @@ footer {
 		filter: opacity(.8);
 		-webkit-filter: opacity(.8);
 		height: 4rem;
-	}
-	h1 {
-		color: var(--primario);
 	}
 	}
 
