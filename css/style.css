@@ -391,6 +391,7 @@ h2 {
 .titulo_imagen {
 	width: 60%;
 	margin: auto;
+	margin-bottom: 2rem;
 }
 
 .blog {
@@ -461,6 +462,7 @@ p {
 .titulo_imagen {
 	width: 65%;
 	margin: auto;
+	margin-bottom: 2rem;
 }
 
 .barra--footer {
@@ -510,6 +512,7 @@ h2 {
 .titulo_imagen {
 	width: 70%;
 	margin: auto;
+	margin-bottom: 2rem;
 }
 
 .barra--footer {
