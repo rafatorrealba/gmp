@@ -52,6 +52,10 @@ h5 {
 p {
 	font-size: 2.5rem;
 }
+th, td {
+	border: 1px solid var(--negro);
+	width: fit-content;
+}
 
 /** Contenedor */
 .barra_logo {
@@ -91,6 +95,9 @@ p {
 	-webkit-filter: opacity(.8);
 	height: 8rem;
 }
+.img_iconos_banner {
+	height: 4rem;
+}
 
 .img_iconos:hover {
 	filter: none;
@@ -121,6 +128,13 @@ p {
 	text-align: center;
 	margin-top: 25rem;
 }
+
+.header__texto_appropiator {
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+}
+
 .eslogan {
 	font-weight: bold;
 	color: var(--terciario);
@@ -203,9 +217,51 @@ footer {
 	align-items: center;
 	}
 
+.blog_appropiator {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	gap: 4rem;
+	align-items: flex-start;
+}
+
+.banner_appropiator {
+	background-color: var(--primario);
+	grid-column: 1 / 2;
+	grid-row: 1 / 4;
+}
+
+.iconos_banner {
+	margin-top: 3rem;
+}
+
+.banner_appropiator_texto {
+	color: var(--blanco);
+	margin: 2rem;
+	font-weight: bold;
+}
+
+
+.details {
+	grid-column: 2 / 3;
+}
+
+.well_table {
+	width: 95%;
+	border: 1px solid var(--negro);
+	margin: auto;
+	text-align: center;
+}
+
+.summary {
+	grid-column: 2 / 3;
+}
+
+.market {
+	grid-column: 2 / 3;
+}
+
 .contenido {
 	grid-column: 1 / 3;
-	text-align: center;
 }
 
 .contenido_entrada {
